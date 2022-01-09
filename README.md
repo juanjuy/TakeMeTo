@@ -1,5 +1,7 @@
 TakeMeTo is a single-page web app that displays local information about any selected city in the world.
 
+Heroku: https://guarded-headland-78453.herokuapp.com/
+
 The website's functionality includes:
 - a search bar at the top that allows you to select a city
   - this will display a results list populated by a list of cities provided by the GeoDB Cities API
