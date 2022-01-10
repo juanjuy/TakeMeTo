@@ -1,5 +1,7 @@
 TakeMeTo is a single-page web app that displays local information about any selected city in the world.
 
+Heroku: https://guarded-headland-78453.herokuapp.com/
+
 The website's functionality includes:
 
 - upon loading the page, your browser will prompt you for your location via the browser's Geolocation API. If you accept, it will automatically load the information for your current city
@@ -16,7 +18,7 @@ Frontend
 - React
 - HTML/CSS
 - Axios
-- Geolocation API for permission
+- Geolocation API for permission to access location
 - Interface with backend via first-party API
 
 Backend
