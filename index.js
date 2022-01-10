@@ -19,7 +19,8 @@ function removeDupeCities(cityList) {
 
 app.get('/api/citylist', async (req, res) => {
 	try {
-		let citiesResponse = await axios.get(`http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=10&sort=-population&namePrefix=${req.query.searchText}`);
+		let citiesResponse = await axios.get(`http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=10&sort=-population&namePrefix=${req.query.searchText || ''}&location=${req.query.location || ''}`);
+		console.log(citiesResponse);
 		res.json(removeDupeCities(citiesResponse.data.data));
 	} catch (error) {
 		res.json([]);
