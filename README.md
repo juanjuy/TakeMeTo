@@ -1,6 +1,6 @@
 TakeMeTo is a single-page web app that displays local information about any selected city in the world.
 
-Heroku: https://pacific-inlet-54414.herokuapp.com/
+Heroku: https://take-me-to1.herokuapp.com/
 
 The website's functionality includes:
 
